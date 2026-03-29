@@ -1,0 +1,12 @@
+name: cv-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit
+      - tensorflow
+      - numpy<2.0.0
+      - Pillow
